@@ -2,22 +2,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
-
+$green : #00C21F;
 $blue : #253f7f;
+$blue2 : #597DFD;
+
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif !important;
-
-}
-
-.nav_bar{
+  text-decoration: none !important;
+  list-style-type: none;
 }
 
 .color_blue{
   color: $blue;
-
 }
+
+// Navbar start ---
+
+.nav_bar{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  .navbar-toggler-icon {
+    background-image: url('./images/nav-icon.svg')
+  }
+  
+  .navbar-toggler{
+    border: 1px solid $blue2;
+
+    &:focus{
+      border: 1px solid $blue2;
+      box-shadow: 0 0 6px $blue2 !important;
+
+    }
+  }
+  .nav{
+    .nav-logo{
+      width: 120px;
+      cursor: pointer;
+    }
+
+    .nav-list{
+      display: flex;
+      padding-top: 16px;
+      gap: 10px;
+
+      .nav-item{
+
+        .nav-links{
+          font-size: 14px;
+          text-transform: uppercase;
+          font-weight: 700;
+          padding: 0 0.5rem 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width : 992px) {
+  .nav-list{
+    flex-direction: column ;
+    text-align: center;
+  }
+}
+
+// Navbar end ---
+
 
