@@ -1,13 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-
 $green : #00C21F;
 $blue : #253f7f;
 $blue2 : #597DFD;
 $yellow : #dae63f;
-$green2 : #50C878;
-
+$green2 : #00D622;
 
 *{
   margin: 0;
@@ -21,6 +19,65 @@ $green2 : #50C878;
 .color_blue{
   color: $blue;
 }
+
+// Site head start ---
+
+.Sitehead{
+  background-color: $green2;
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+
+  .site-head-info{
+    justify-content: right;
+
+    .search-button{
+      border-right: 1px solid $yellow;
+      font-size: 19px;
+      padding-right: 1rem;
+      cursor: pointer;
+      position: relative;
+      top: 3px;
+      height: 23px;
+      margin-right: 1em;
+    }
+
+    .socials{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      padding-right: 1rem;
+      top: 3px;
+      position: relative;
+      border-right: 1px solid $yellow;
+      svg{
+        transform: scale(1.5);
+        fill: #fff;
+      }
+
+      .youtube{
+        &:hover{
+          fill: #FF0000;
+        }
+      }
+
+      .facebook{
+        &:hover{
+          fill: #109AF5;
+        }
+      }
+
+      .instagram{
+        &:hover{
+          fill: #BC2E91;
+        }
+      }
+      
+    }
+  }
+}
+
+// Site head end ---
+
 
 // Navbar start ---
 
