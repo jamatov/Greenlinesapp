@@ -21,13 +21,13 @@ body{
 }
 
 .color_blue{
-  color: $blue;
+  color: green;
 }
 
 // Site head start ---
 
 .Sitehead{
-  background-color: #253F7F;
+  background-color: green;
   padding-top: 15px!important;
   padding-bottom: 15px!important;
 
@@ -95,11 +95,11 @@ body{
   }
   
   .navbar-toggler{
-    border: 1px solid $green2;
+    border: 1px solid green;
 
     &:focus{
-      border: 1px solid $green2;
-      box-shadow: 0 0 6px $green2 !important;
+      border: 1px solid green;
+      box-shadow: 0 0 6px green !important;
 
     }
   }
@@ -231,7 +231,7 @@ body{
         .form-title{
           font-size: 24px;
           font-weight: 700;
-          color: #253f7f;
+          color: green;
           text-transform: uppercase;
 
           &::after{
@@ -265,6 +265,68 @@ body{
 
         svg{
           fill: #CECECE;
+        }
+      }
+    }
+  }
+
+  .HomeInfo{
+    padding: 0 80px;
+
+    .card{
+
+      .cards{
+        padding: 20px;
+      }
+
+      .home_box{
+        h2{
+          font-size: 24px;
+          font-weight: 700;
+          color: green;
+          text-transform: uppercase;
+
+          &::after{
+            content: " ";
+            border-bottom: 2px solid #0af;
+            width: 30px;
+            display: block;
+            margin: 10px 0;
+          }
+        }
+
+        p{
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0;
+          margin-inline-end: 0;
+          line-height: 1.7rem;
+          font-size: 15px;
+        }
+
+        .more-btn{
+          text-align: center;
+        }
+      }
+
+      .home_box2{
+        p{
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0;
+          margin-inline-end: 0;
+          line-height: 1.7rem;
+          font-size: 15px;
+          padding: none;
+
+          svg{
+            margin-right: 15px;
+            transform: scale(2);
+            fill: green;
+            margin-bottom: 10px;
+          }
         }
       }
     }
