@@ -107,8 +107,13 @@ export default function HomeHeader() {
             <div className="form-row">
               <div className="col-md-9 mb-2">
                 <div className="form-check">
-                   <input className='form-check-input' type="checkbox" name="" id="" />
+                  <input className='form-check-input' type="checkbox" name="" id="" />
+                  <label className='form-check-label'>Я даю согласие Группе медицинских компаний Acıbadem на использование моих вышеупомянутых личных данных для целей, описанных в этом </label>
                 </div>
+              </div>
+
+              <div className="col-md-3">
+                <input type="submit" className='btn btn-orange btn-block' value="ОТПРАВИТЬ" />
               </div>
             </div>
 
