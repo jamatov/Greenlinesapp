@@ -16,6 +16,10 @@ $green2 : #00D622;
   list-style-type: none;
 }
 
+body{
+  background: #F4F4F4;
+}
+
 .color_blue{
   color: $blue;
 }
@@ -23,9 +27,9 @@ $green2 : #00D622;
 // Site head start ---
 
 .Sitehead{
-  background-color: $green2;
-  padding-top: 10px!important;
-  padding-bottom: 10px!important;
+  background-color: #253F7F;
+  padding-top: 15px!important;
+  padding-bottom: 15px!important;
 
   .site-head-info{
     justify-content: right;
@@ -84,6 +88,7 @@ $green2 : #00D622;
 .nav_bar{
   padding: 20px 0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background: #fff;
 
   .navbar-toggler-icon {
     background-image: url('./images/nav-icon.svg')
@@ -236,6 +241,30 @@ $green2 : #00D622;
             display: block;
             margin: 10px 0;
           }
+        }
+      }
+    }
+  }
+
+  .HomeSearch{
+    padding: 0 80px;
+
+    .search-input{
+      display: flex;
+
+      input{
+        border: none;
+        border-radius: 15px;
+        background: #fff;
+      }
+
+      .search-btn{
+        background: #fff;
+        border: none;
+        border: 1px solid transparent;
+
+        svg{
+          fill: #CECECE;
         }
       }
     }
