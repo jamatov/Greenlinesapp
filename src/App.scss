@@ -90,11 +90,11 @@ $green2 : #00D622;
   }
   
   .navbar-toggler{
-    border: 1px solid $green;
+    border: 1px solid $green2;
 
     &:focus{
-      border: 1px solid $green;
-      box-shadow: 0 0 6px $green !important;
+      border: 1px solid $green2;
+      box-shadow: 0 0 6px $green2 !important;
 
     }
   }
