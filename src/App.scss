@@ -331,6 +331,23 @@ body{
       }
     }
   }
+
+  .HomeServices{
+    .sevices-title{
+      font-size: 24px;
+      font-weight: 700;
+      color: green;
+      text-transform: uppercase;
+      
+      &::after{
+        content: " ";
+        border-bottom: 2px solid #0af;
+        width: 30px;
+        display: block;
+        margin: 10px auto 0;
+      }
+    }
+  }
 }
 
 
