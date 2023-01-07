@@ -407,6 +407,46 @@ body{
       }
     }
   }
+
+  .Hospitalinfo{
+    padding: 48px  0;
+
+    .card1{
+      .card-body{
+        img{
+          width: 100%;
+        }
+      }
+    }
+
+    .card2{
+      .cardtittle{
+        font-size: 24px;
+        font-weight: 700;
+        color: $green;
+        text-transform: uppercase;
+        
+
+        &::after{
+          content: " ";
+          border-bottom: 2px solid #0af;
+          width: 30px;
+          display: block;
+          margin: 10px 0;
+        }
+      }
+
+      p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        line-height: 1.7rem;
+        font-size: 15px;
+      }
+    }
+  }
 }
 
 

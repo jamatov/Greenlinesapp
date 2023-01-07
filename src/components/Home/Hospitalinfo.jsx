@@ -1,10 +1,33 @@
 import React from 'react'
+import Img1 from '../../images/home_hospitals.webp'
+import Img2 from '../../images/home-2.webp'
 
 export default function Hospitalinfo() {
   return (
-    <div className='Hospitalinfo'>
+    <div className='Hospitalinfo'>  
       <div className="container">
+        <div className="row">
+
+          <div className="card card1 col-md-4">
+            <div className="card-body">
+              <img src={Img1} alt="" />
+              <img src={Img2} alt="" />
+            </div>
+          </div>
+
+          <div className="card card2 col-md-8">
+            <div className="card-body">
+              <h2 className='cardtittle'>Клиники и медицинские центры Acıbadem (Аджибадем)</h2>
+              <p>Стремление Группы медицинских компаний Acıbadem (Аджибадем) предоставить своим пациентам медицинское обслуживание мирового класса привело к открытию множества клиник в Турции и за рубежом. Начиная с 2011 года Acıbadem (Аджибадем) расширила свое присутствие за рубежом и открыла клиники в Турции, Македонии, Болгарии и Нидерландах. </p>
+              <p>Все клиники в Группе соответствуют мировым стандартам и выделяются своими центрами передового опыта. Онкологические центры (хирургия, лучевая терапия, химиотерапия), Центры кардиологии (детская и взрослая кардиология и кардиохирургия), Центры экстракорпорального оплодотворения, Центры трансплантации органов (печени, почек, костного мозга), Центры позвоночника, Центр спортивной медицины, аккредитованный FIFA, и Центры роботизированной хирургии. Все они аккредитованы на национальном и международном уровне благодаря высокотехнологичному оборудованию и экспертам с большим опытом в своих областях.</p>
+              
+              <div className="text-center mt-3 nb-3">
+                <button className='btn btn-primary'>Читать далее</button>
+              </div>
+            </div>
+          </div>
         
+        </div>
       </div>
     </div>
   )
