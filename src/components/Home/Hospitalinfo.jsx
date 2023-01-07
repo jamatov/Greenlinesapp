@@ -1,13 +1,14 @@
 import React from 'react'
 import Img1 from '../../images/home_hospitals.webp'
 import Img2 from '../../images/home-2.webp'
+import Img3 from '../../images/hospital-bg.jpg'
 
 export default function Hospitalinfo() {
   return (
     <div className='Hospitalinfo'>  
       <div className="container">
-        <div className="row">
-
+        
+        <div className="row mb-5">
           <div className="card card1 col-md-4">
             <div className="card-body">
               <img src={Img1} alt="" />
@@ -26,7 +27,29 @@ export default function Hospitalinfo() {
               </div>
             </div>
           </div>
-        
+        </div>
+
+        <div className="row">
+          <div className="card card2 col-md-8">
+            <div className="card-body">
+              <h2 className='cardtittle'>Центр международных пациентов</h2>
+              <p>Центр международных пациентов Группы медицинских компаний Acıbadem (Аджибадем) предоставляет все необходимые услуги пациентам из разных стран. В клиниках Acıbadem (Аджибадем) опытные сотрудники готовы помочь на каждом этапе медицинского путешествия. </p>
+              <p>Центр международных пациентов Acıbadem (Аджибадем) – это отправная точка лечения пациентов со всего мира. Для регистрации необходимо прислать полную историю болезней и соответствующие результаты анализов по электронной почте, факсу или обычной почте для ознакомления врачами. После рассмотрения медицинских документов с пациентом связываются сотрудники Центра международных пациентов Acıbadem (Аджибадем). </p>
+              <p>В Центре обслуживания пациентов работает команда опытных сотрудников. Их цель – организовать и упростить медицинское путешествие, начиная со дня прибытия и до отъезда домой. Они учитывают все детали: встречу в аэропорту, предоставление услуг переводчика и доставку копий медицинских заключений, руководствуясь индивидуальным подходом и медицинскими потребностями каждого пациента.</p>
+
+              <div className="text-center">
+                <button className='btn btn-primary'>
+                Читать далее
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card  col-md-4">
+            <div className="card-body card3 mt-5 mb-3">
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
