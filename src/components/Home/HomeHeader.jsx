@@ -17,7 +17,7 @@ export default function HomeHeader() {
               <div className='col-md-6'>
                 <div className='form-group'>
                   <label>Имя</label>
-                  <input type="name" className='form-control' />
+                  <input type="name" className='form-control  ' />
                 </div>
               </div>
 
@@ -121,7 +121,7 @@ export default function HomeHeader() {
               </div>
 
               <div className="col-md-3">
-                <input type="submit" className='btn btn-orange btn-block' value="ОТПРАВИТЬ" />
+                <input type="submit" className='btn btn-warning btn-block' value="ОТПРАВИТЬ" />
               </div>
             </div>
 

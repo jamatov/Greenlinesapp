@@ -6,6 +6,7 @@ $blue : #253f7f;
 $blue2 : #2C87EA;
 $yellow : #dae63f;
 $green2 : #00D622;
+$orange : #FFC107;
 
 *{
   margin: 0;
@@ -20,12 +21,13 @@ $green2 : #00D622;
   background-color: $blue2 !important; 
 }
 
+
 body{
   background: #F4F4F4;
 }
 
 .color_blue{
-  color: green;
+  color: $green;
 }
 
 // Site head start ---

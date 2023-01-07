@@ -69,7 +69,7 @@ export default function HomeServices() {
               </div>
 
               <div className="text-center pt-5">
-                <button className='btn btn-primary'>Посмотреть все услуги</button>
+                <button className='btn btn-warning'>Посмотреть все услуги</button>
               </div>
             </div>
           </div>

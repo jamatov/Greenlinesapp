@@ -16,7 +16,7 @@ export default function HomeSearch() {
                 aria-label="Поиск всего, что вы ищете…"
                 aria-describedby="basic-addon2"
               />
-              <Button variant="outline-success" id="button-addon2">
+              <Button variant="outline-warning" id="button-addon2">
                 <FaSearch/>
               </Button>
             </InputGroup>
