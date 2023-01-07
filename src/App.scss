@@ -1,9 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-$green : #00C21F;
+$green : #22A93E;
 $blue : #253f7f;
-$blue2 : #597DFD;
+$blue2 : #2C87EA;
 $yellow : #dae63f;
 $green2 : #00D622;
 
@@ -14,6 +14,10 @@ $green2 : #00D622;
   font-family: 'Roboto', sans-serif !important;
   text-decoration: none !important;
   list-style-type: none;
+}
+
+.btn-primary{
+  background-color: $blue2 !important; 
 }
 
 body{
@@ -27,7 +31,7 @@ body{
 // Site head start ---
 
 .Sitehead{
-  background-color: green;
+  background-color: $green;
   padding-top: 15px!important;
   padding-bottom: 15px!important;
 
@@ -95,11 +99,11 @@ body{
   }
   
   .navbar-toggler{
-    border: 1px solid green;
+    border: 1px solid $green;
 
     &:focus{
-      border: 1px solid green;
-      box-shadow: 0 0 6px green !important;
+      border: 1px solid $green;
+      box-shadow: 0 0 6px $green !important;
 
     }
   }
@@ -333,11 +337,13 @@ body{
   }
 
   .HomeServices{
+    padding: 48px 80px;
     .sevices-title{
       font-size: 24px;
       font-weight: 700;
       color: green;
       text-transform: uppercase;
+      margin-bottom: 30px;
       
       &::after{
         content: " ";
@@ -345,6 +351,59 @@ body{
         width: 30px;
         display: block;
         margin: 10px auto 0;
+      }
+    }
+
+    .service-cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+      .card{
+        max-width: 300px;
+        h2{
+          font-size: 1.25rem;
+          font-weight: 700;
+          color: green;
+
+          &::after{
+            content: " ";
+            border-bottom: 2px solid #0af;
+            width: 30px;
+            display: block;
+            margin: 10px 0;
+            margin: 10px auto 0;
+          }
+        }
+
+        p{
+          font-size: 14px;
+          color: grey;
+        }
+      }
+    }
+  }
+
+  .HomeFacts{
+    padding: 30px 15px!important;
+    background-color: #22A93E;
+    color: #fff;
+    .facts-list{
+      .col{
+        .br{
+          border-right: 1px solid $yellow !important;
+        }
+        .fact{
+          height: 123px;
+          text-align: center;
+          font-size: 16px;
+
+
+          span{
+            font-size: 50px;
+            display: block;
+          }
+        }
       }
     }
   }
