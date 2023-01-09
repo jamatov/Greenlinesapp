@@ -577,8 +577,55 @@ body{
   }
 }
 
-
 // Home end ---
+
+
+// About start ---
+
+.About{
+  aside{
+    .with-shadow{
+      .action1{
+        background: $green;
+        color: #fff;
+      }
+    }
+  }
+
+  .page-banners{
+    img{
+    }
+  }
+
+  .card{
+    .cardbody{
+      padding: 2rem 2.5rem;
+
+      h2{
+        text-transform: uppercase;
+        font-size: 32px;
+        margin-bottom: 1.5rem;
+        color: $green;
+
+        &::after{
+          content: " ";
+          border-bottom: 2px solid #0af;
+          width: 30px;
+          display: block;
+          margin: 10px 0;
+        }
+      }
+
+      h3{
+        font-size: 24px;
+        margin-bottom: 1rem;
+        color: $green;
+      }
+    }
+  }
+}
+
+// About end ---
 
 
 // Footer start ---
@@ -599,6 +646,8 @@ body{
       }
     }
   }
+
+  
 }
 
 // Footer end ---
