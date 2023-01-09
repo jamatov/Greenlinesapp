@@ -10,6 +10,7 @@ import Patientguide from './pages/PatientGuide'
 import News from './pages/News'
 import Contact from './pages/Contact'
 import Sitehead from './components/Head/Sitehead';
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/news' element={<News/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }
