@@ -46,9 +46,9 @@ export default function Hospitalinfo() {
             </div>
           </div>
 
-          <div className="card  col-md-4">
-            <div className="card-body card3 mt-5 mb-3">
-
+          <div className="card card1 col-md-4">
+            <div className="card-body mt-5 mb-3">
+              <img src={Img3} alt="" />
             </div>
           </div>
         </div>
@@ -57,6 +57,19 @@ export default function Hospitalinfo() {
           <div className="card card1 col-md-4">
             <div className="card-body">
               <img src={Card3} alt="" />
+            </div>
+          </div>
+
+          <div className="card card2 col-md-8">
+            <div className="card-body">
+              <h2 className="cardtittle">Международные страховые компании</h2>
+              <p>Acıbadem (Аджибадем) предлагает своим партнерам медицинские страховые услуги. Компания тщательно выбырает потенциального страхового партнера, уделяя особое внимание страховому портфелю и статусу погашения, так как у Acıbadem (Аджибадем) в приоритете благополучие зарубежных пациентов.</p>
+              <p>Застрахованные пациенты получают скидки на различные медицинские услуги. Кроме того, Acıbadem (Аджибадем) гарантирует выставление счета страховым компаниям за консультации и лечение по утвержденной с пациетом стоимости. Пациентам нужно будет покрыть только свою долю фиксированного процента.</p>
+              <p>Все застрахованные пациенты могут пользоваться услугами страховых компаний, которые заключили соглашение с Группой медицинских компаний Acıbadem (Аджибадем) и соответсвуют международному полису страхования.</p>
+
+              <div className="text-center">
+                <button className='btn btn-warning'>Читать далее</button>
+              </div>
             </div>
           </div>
         </div>
