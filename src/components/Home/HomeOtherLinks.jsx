@@ -8,8 +8,8 @@ export default function HomeOtherLinks() {
           
           <div className="col-md-6 col-lg-4 mb-4">
             <div className="card eq-card">
-              <div className="top bg-wrapper">
-                <div className='overlay-title bg-primary'></div>
+              <div className="bg-wrapper">
+                <div className='overlay-title'></div>
               </div>
               
               <h3>ИСТОРИИ ПАЦИЕНТОВ</h3>
