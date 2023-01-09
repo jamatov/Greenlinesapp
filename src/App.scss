@@ -483,6 +483,14 @@ body{
         text-align: right;
         text-transform: uppercase;
       }
+
+      .card-body{
+        .col-lg-8{
+          p{
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }
