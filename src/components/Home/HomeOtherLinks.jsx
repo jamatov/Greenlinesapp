@@ -131,7 +131,7 @@ export default function HomeOtherLinks() {
             </div>
           </div>
 
-          <div className="col-md-12 logo-info col-lg-4">
+          <div className="col-md-12 logo-info col-lg-4 mb-5">
             <div className="card text-center">
               <div className="card-body ">
                 <img className='mb-4' src={Logo} alt="" />

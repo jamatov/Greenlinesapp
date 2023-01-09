@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeFacts from '../components/Home/HomeFacts'
+import HomeGroup from '../components/Home/HomeGroup'
 import HomeHeader from '../components/Home/HomeHeader'
 import HomeInfo from '../components/Home/HomeInfo'
 import HomeOtherLinks from '../components/Home/HomeOtherLinks'
@@ -17,6 +18,7 @@ export default function Home() {
       <HomeFacts/>
       <Hospitalinfo/>
       <HomeOtherLinks/>
+      <HomeGroup/>
     </div>
   )
 }
