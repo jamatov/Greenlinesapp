@@ -17,6 +17,21 @@ $orange : #FFC107;
   list-style-type: none;
 }
 
+.scrolltotop{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: $green;
+  color: hsla(0,0%,100%,.8);
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 32px;
+  display: none;
+  border-radius: 50%;
+}
+
 .btn-primary{
   background-color: $blue2 !important; 
 }
@@ -590,12 +605,15 @@ body{
         color: #fff;
       }
     }
-  }
 
-  .page-banners{
-    img{
+    .banner{
+      img{
+        width: 100%;
+      }
     }
   }
+
+
 
   .card{
     .cardbody{

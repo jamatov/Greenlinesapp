@@ -1,5 +1,7 @@
 import React from 'react'
 import Bg from '../images/about-image.jpg'
+import Banner from '../images/about-banner.webp'
+import { Link } from 'react-router-dom'
 
 export default function About() {
   return (
@@ -7,13 +9,23 @@ export default function About() {
       <div className="container">
         <div className="row">
           <aside className="col-md-4 col-lg-3">
-            <div className="list-group mb-4 with-shadow">
-              <a className='list-group-item list-group-item-action action1' href="">ПОЧЕМУ ACIBADEM</a>
-              <a className='list-group-item list-group-item-action' href="">НОВОСТИ </a>
-              <a className='list-group-item list-group-item-action' href="">ИСТОРИИ ПАЦИЕНТОВ </a>
-              <a className='list-group-item list-group-item-action' href="">КЛИНИКИ </a>
-              <a className='list-group-item list-group-item-action' href="">СОВЕТ ДИРЕКТОРОВ </a>
-              <a className='list-group-item list-group-item-action' href="">ИНТЕГРИРОВАННАЯ МОДЕЛЬ ЗДРАВООХРАНЕНИЯ </a>
+            <div className="list-group mb-5  with-shadow">
+              <Link to='/about' className='list-group-item list-group-item-action action1' href="">ПОЧЕМУ GREENLINES</Link>
+              <Link to='/news' className='list-group-item list-group-item-action' href="">НОВОСТИ </Link>
+              <Link to='/' className='list-group-item list-group-item-action' href="">ИСТОРИИ ПАЦИЕНТОВ </Link>
+              <Link to='/' className='list-group-item list-group-item-action' href="">КЛИНИКИ </Link>
+              <Link to='/' className='list-group-item list-group-item-action' href="">СОВЕТ ДИРЕКТОРОВ </Link>
+              <Link to='/' className='list-group-item list-group-item-action' href="">ИНТЕГРИРОВАННАЯ МОДЕЛЬ ЗДРАВООХРАНЕНИЯ </Link>
+            </div>
+
+            <div className="banner">
+              <Link to='/contact'>
+                <img src={Banner} alt="" />
+              </Link>
+
+              <div className="text-center pt-2">
+                <button className='btn btn-warning'>Подать заявку</button>
+              </div>
             </div>
           </aside>
 
