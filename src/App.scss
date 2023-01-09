@@ -21,6 +21,10 @@ $orange : #FFC107;
   background-color: $blue2 !important; 
 }
 
+.text-right{
+  text-align: right !important;
+}
+
 
 body{
   background: #F4F4F4;
@@ -457,13 +461,21 @@ body{
   .HomeOtherLinks{
     .card{
       position: relative;
+
+      .bg2{
+        background-image: url('./images/other-links2.webp');
+      }
+
+      .bg1{
+        background-image: url('./images/other-links1.webp');
+
+      }
       
       .bg-wrapper{
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        background-image: url('./images/other-links1.webp');
         position: relative;
         height: 105px;
       }
@@ -476,22 +488,67 @@ body{
         background: rgba(0,0,0,0.4);
       }
 
+      .blur{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 105px;
+        background: rgba(30, 145, 1, 0.623);
+        border-radius: 5px 0 0 5px;
+      }
+
       h3{
         position: absolute;
+        opacity: .8;
         right: 30px;
         top: 35px;
         text-align: right;
         text-transform: uppercase;
+        color: #fff;
+        z-index: 3;
+        // height: 100%;
+        // width: 100%;
       }
 
       .card-body{
+        border-bottom: 1px solid #eee;
         .col-lg-8{
           p{
             font-size: 14px;
           }
         }
+
+        .col{
+          text-align: right !important;
+        }
       }
     }
+
+    .logo-info{
+      .card-body{
+        img{
+          display: block;
+          margin: 0 auto;
+          width: 60%;
+        }
+
+        a{
+          color: $green;
+        }
+
+        p{
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0;
+          margin-inline-end: 0;
+          line-height: 1.7rem;
+          font-size: 15px;
+        }
+      }
+    }
+
   }
 }
 
