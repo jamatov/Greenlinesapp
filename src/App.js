@@ -19,7 +19,7 @@ function App() {
 
   const [navbar, setNavbar] = useState(false);
   function setNav() {
-    if (window.scrollY >= 850) {
+    if (window.scrollY >= 150) {
         setNavbar(true);
     } else {
         setNavbar(false)
@@ -38,7 +38,7 @@ function App() {
       <Navigation/>
       <ScrollToTop/>
 
-      <div className='scrolltotop'>
+      <div className={navbar ? 'scrolltotop fixxed' : 'scrolltotop'} onClick={top}>
         <FaAngleUp/>
       </div>
       

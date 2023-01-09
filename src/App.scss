@@ -18,18 +18,25 @@ $orange : #FFC107;
 }
 
 .scrolltotop{
+  opacity: 0;
   width: 50px;
   height: 50px;
-  text-align: center;
-  background: $green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $green2;
   color: hsla(0,0%,100%,.8);
   text-decoration: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
   font-size: 32px;
-  display: none;
   border-radius: 50%;
+}
+
+.fixxed{
+  opacity: 1;
+  transition: 1s;
 }
 
 .btn-primary{
