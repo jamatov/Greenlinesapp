@@ -88,6 +88,7 @@ body{
       svg{
         transform: scale(1.5);
         fill: #fff;
+        transition: 0.3s;
       }
 
       .youtube{
@@ -736,7 +737,11 @@ body{
   }
   .TreatmentCards{
     background: #fff;
-
+    .card{
+      img{
+        width: 100%;
+      }
+    }
     .card-body{
       background: $green;
     }
@@ -744,6 +749,66 @@ body{
 }
 
 // Treatment end ---
+
+
+// Technologies start ---
+
+.Technologies{
+  .DoctorsTitle{
+    ul{
+      display: flex;
+      gap: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0.75rem 0;
+      margin-bottom: 0;
+      list-style: none;
+      background-color: transparent;
+      border-radius: 0.25rem;
+      li{
+        font-size: 15px;
+
+        a{
+          color: $green;
+        }
+      }
+
+      .list-item2{
+        &::before{
+          display: inline-block;
+          padding-right: 0.5rem;
+          color: #6c757d;
+          content: "/";
+        }
+      }
+    }
+  }
+
+  .TechnologiesLinks{
+    background: #fff;
+
+    .row{
+      .col-lg-6{
+        a{
+          background: #f2f2f2;
+          color: $green;
+          padding: 10px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          svg{
+            color: $green;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Technologies end ---
+
 
 
 // Footer start ---
