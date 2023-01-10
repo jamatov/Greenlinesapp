@@ -1,7 +1,10 @@
 import React from 'react'
+import DoctorsTitle from '../components/Doctors/DoctorsTitle'
 
 export default function Doctors() {
   return (
-    <div>Doctors</div>
+    <div className='Doctors'>
+      <DoctorsTitle/>
+    </div>
   )
 }
