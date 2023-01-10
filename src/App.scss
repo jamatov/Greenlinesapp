@@ -685,6 +685,20 @@ body{
       }
     }
   }
+
+  .DoctorsCards{
+    background: #fff;
+
+    .doctors-cards{
+      .card{
+        background: #E9ECEF;
+
+        .card-body{
+          background: $green;
+        }
+      }
+    }
+  }
 }
 
 // Doctors end ---
