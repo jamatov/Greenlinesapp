@@ -810,6 +810,40 @@ body{
 // Technologies end ---
 
 
+// News start ---
+
+.News{
+  .row{
+    .list-group{
+      .active{
+        background: $green;
+      }
+
+    }
+    .col-md-8{
+      h1{
+        text-transform: uppercase;
+        font-size: 32px;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+        color: $green;
+
+        &::after{
+          content: " ";
+          border-bottom: 2px solid #0af;
+          width: 30px;
+          display: block;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+// News end ---
+
+
+
 
 // Footer start ---
 
