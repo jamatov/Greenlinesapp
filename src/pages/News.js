@@ -15,7 +15,7 @@ export default function News() {
           <aside className='col-md-4 col-lg-3'>
             <div className="list-group mb-4">
               <Link to='/' className='list-group-item list-group-item-action'>ПОЧЕМУ ACIBADEM</Link>
-              <Link to='/' className='list-group-item list-group-item-action active'>НОВОСТИ </Link>
+              <Link to='/' className='list-group-item list-group-item-action acctive'>НОВОСТИ </Link>
               <Link to='/' className='list-group-item list-group-item-action'>ИСТОРИИ ПАЦИЕНТОВ </Link>
               <Link to='/' className='list-group-item list-group-item-action'>КЛИНИКИ </Link>
               <Link to='/' className='list-group-item list-group-item-action'>СОВЕТ ДИРЕКТОРОВ </Link>
