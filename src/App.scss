@@ -289,6 +289,10 @@ body{
       }
     }
 
+    .box1-btn{
+      display: none;
+    }
+
     @media (max-width : 992px) {
       .header-box2 {
         padding: 1rem 5rem 1rem 3rem !important;
@@ -303,6 +307,7 @@ body{
           display: none;
         }
         .box1-btn{
+          display: block;
           padding: 100px 32px 50px;
 
           h3{
@@ -456,10 +461,12 @@ body{
     padding: 30px 20px!important;
     background-color: #22A93E;
     color: #fff;
+    
     .facts-list{
       .col{
         .br{
-          border-right: 1px solid $yellow !important;
+          padding-left: 10px;
+          border-right: 1px solid $yellow;
         }
         .fact{
           height: 123px;
@@ -471,6 +478,14 @@ body{
             font-size: 50px;
             display: block;
           }
+        }
+      }
+    }
+
+    @media (max-width : 767px) {
+      .col{
+        .br{
+          border-right: none !important;
         }
       }
     }
