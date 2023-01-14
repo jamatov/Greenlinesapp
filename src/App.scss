@@ -37,6 +37,7 @@ $orange : #FFC107;
 .fixxed{
   opacity: 1;
   transition: 1s;
+  z-index: 99;
 }
 
 .btn-primary{
@@ -119,7 +120,7 @@ body{
 // Navbar start ---
 
 .nav_bar{
-  padding: 20px 0;
+  padding: 20px 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   background: #fff;
 
@@ -277,10 +278,37 @@ body{
         }
       }
     }
+
+    @media (max-width : 992px) {
+      .header-box2 {
+        padding: 1rem 5rem 1rem 3rem !important;
+      }
+    }
+
+    @media (max-width : 766px) {
+      .header{
+        display: block;
+
+        .gradient-bg{
+          display: none;
+        }
+        .box1-btn{
+          padding: 100px 32px 50px;
+
+          h3{
+            color: $green;
+          }
+        }
+      }
+
+      .header-box2 {
+        display: none;
+      }
+    }
   }
 
   .HomeSearch{
-    padding: 0 80px;
+    padding: 0 20px;
 
     .search-input{
       display: flex;
@@ -301,11 +329,12 @@ body{
         }
       }
     }
+
+    
   }
 
   .HomeInfo{
-    padding: 0 80px;
-
+    padding: 0 20px;
     .card{
 
       .cards{
@@ -366,7 +395,7 @@ body{
   }
 
   .HomeServices{
-    padding: 48px 80px;
+    padding: 48px 20px;
     .sevices-title{
       font-size: 24px;
       font-weight: 700;
@@ -414,7 +443,7 @@ body{
   }
 
   .HomeFacts{
-    padding: 30px 15px!important;
+    padding: 30px 20px!important;
     background-color: #22A93E;
     color: #fff;
     .facts-list{

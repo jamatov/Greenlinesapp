@@ -6,6 +6,10 @@ export default function HomeHeader() {
       <div className="header">
         <div className="header-box1">
           <div className="gradient-bg"></div>
+          <div className="text-center box1-btn">
+            <h3 className='h4 mb-3'>ПОЛУЧИТЬ ВТОРОЕ ЗАКЛЮЧЕНИЕ СПЕЦИАЛИСТА</h3>
+            <button className='btn  btn-warning'>Check The Form</button>
+          </div>
         </div>
 
         <div className="header-box2">
