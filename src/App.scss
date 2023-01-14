@@ -15,6 +15,16 @@ $orange : #FFC107;
   font-family: 'Roboto', sans-serif !important;
   text-decoration: none !important;
   list-style-type: none;
+
+  @media (max-width : 767px) {
+    .banner{
+      display: none !important;
+    }
+
+    .HomeSearch{
+      display: none;
+    }
+  }
 }
 
 .scrolltotop{
@@ -650,6 +660,7 @@ body{
     }
   }
 
+  
 
 
   .card{
@@ -952,6 +963,18 @@ body{
     .acctive{
       background: $green;
       color: #fff;
+    }
+  }
+
+  @media (max-width : 767px) {
+    aside{
+      .banner{
+        display: none;
+      }
+    }
+
+    .col-md-8{
+      padding: 0 20px !important;
     }
   }
 }

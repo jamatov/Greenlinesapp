@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function HomeHeader() {
   return (
@@ -8,7 +9,9 @@ export default function HomeHeader() {
           <div className="gradient-bg"></div>
           <div className="text-center box1-btn">
             <h3 className='h4 mb-3'>ПОЛУЧИТЬ ВТОРОЕ ЗАКЛЮЧЕНИЕ СПЕЦИАЛИСТА</h3>
-            <button className='btn  btn-warning'>Check The Form</button>
+            <Link to='/contact'>
+              <button className='btn  btn-warning'>Check The Form</button>
+            </Link>
           </div>
         </div>
 
