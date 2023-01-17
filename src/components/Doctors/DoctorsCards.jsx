@@ -10,9 +10,9 @@ export default function DoctorsCards() {
       <div className="container">
         <form action="#" className='uhm-filter-form mb-3'>
           <div className="row">
-            <div className="col-md-4 mb-3">
+            <div className=" col-md-4 mb-3">
               <div className="form-group">
-              <Form.Select aria-label="Default select example">
+                <Form.Select aria-label="Default select example">
                   <option value="" selected="selected">Выберите город</option>
                   <option value="adana">Adana</option>
                   <option value="ankara">Ankara</option>
@@ -23,7 +23,7 @@ export default function DoctorsCards() {
                   <option value="kocaeli">Kocaeli</option>
                   <option value="mugla">Muğla</option>
                 </Form.Select>
-              </div>
+              </div>n
             </div>
 
             <div className="col-md-4 mb-3">
@@ -47,7 +47,7 @@ export default function DoctorsCards() {
 
         <div className="row doctors-cards mb-5 w-100">
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -59,7 +59,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -71,7 +71,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -83,7 +83,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -95,7 +95,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -108,7 +108,7 @@ export default function DoctorsCards() {
           </div>
 
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -120,7 +120,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -132,7 +132,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -144,7 +144,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -156,7 +156,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -168,7 +168,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
@@ -180,7 +180,7 @@ export default function DoctorsCards() {
             </div>
           </div>
 
-          <div className='col-md-2 mb-4 '>
+          <div className='col-6 col-sm-4 col-md-3 mb-4 '>
             <div className="card">
               <Link to='/doctors'>
                 <img className='w-100' src={Img1} alt="" />
