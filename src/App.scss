@@ -903,12 +903,8 @@ body{
 
     form{
 
-      .form-row{
-        display: flex;
-        margin-right: -5px;
-        margin-left: -5px;
-        gap: 10px;
-        margin-bottom: 10px;
+      .row{
+        
 
         textarea{
           display: block;
