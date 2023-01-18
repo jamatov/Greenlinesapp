@@ -53,7 +53,6 @@ export default function DoctorsCards() {
                 <img className='w-100' src={Img1} alt="" />
                 <div className="card-body text-center text-white">
                   <p>ALİ DENİZ</p>
-
                 </div>
               </Link>
             </div>
@@ -65,7 +64,6 @@ export default function DoctorsCards() {
                 <img className='w-100' src={Img1} alt="" />
                 <div className="card-body text-center text-white">
                   <p>ALİ DENİZ</p>
-
                 </div>
               </Link>
             </div>

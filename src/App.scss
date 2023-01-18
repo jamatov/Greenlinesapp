@@ -142,9 +142,8 @@ body{
     border: 1px solid $green;
 
     &:focus{
-      border: 1px solid $green;
-      box-shadow: 0 0 6px $green !important;
-
+      border: 4px solid $green;
+      box-shadow: none !important;
     }
   }
   .nav{
@@ -311,7 +310,7 @@ body{
           padding: 100px 32px 50px;
 
           h3{
-            color: $orange;
+            color: $green;
           }
         }
       }
@@ -427,32 +426,29 @@ body{
       }
     }
 
-    .service-cards{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-      .card{
-        max-width: 300px;
-        h2{
-          font-size: 1.25rem;
-          font-weight: 700;
-          color: green;
+  
 
-          &::after{
-            content: " ";
-            border-bottom: 2px solid #0af;
-            width: 30px;
-            display: block;
-            margin: 10px 0;
-            margin: 10px auto 0;
-          }
-        }
+    
+    .card{
+      max-width: 300px;
+      h2{
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: green;
 
-        p{
-          font-size: 14px;
-          color: grey;
+        &::after{
+          content: " ";
+          border-bottom: 2px solid #0af;
+          width: 30px;
+          display: block;
+          margin: 10px 0;
+          margin: 10px auto 0;
         }
+      }
+
+      p{
+        font-size: 14px;
+        color: grey;
       }
     }
   }
