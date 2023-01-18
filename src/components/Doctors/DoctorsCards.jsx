@@ -23,7 +23,7 @@ export default function DoctorsCards() {
                   <option value="kocaeli">Kocaeli</option>
                   <option value="mugla">Muğla</option>
                 </Form.Select>
-              </div>n
+              </div>
             </div>
 
             <div className="col-md-4 mb-3">

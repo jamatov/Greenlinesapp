@@ -217,16 +217,12 @@ body{
       }
 
       .header-box2{
-        padding: 1rem 13rem 1rem 3rem;
+        padding: 1rem 7rem 1rem 3rem;
 
         form{
 
-          .form-row{
-            display: flex;
-            margin-right: -5px;
-            margin-left: -5px;
-            gap: 10px;
-            margin-bottom: 10px;
+          .row{
+    
 
             textarea{
               display: block;
@@ -293,11 +289,7 @@ body{
       display: none;
     }
 
-    @media (max-width : 992px) {
-      .header-box2 {
-        padding: 1rem 5rem 1rem 3rem !important;
-      }
-    }
+   
 
     @media (max-width : 766px) {
       .header{

@@ -4,7 +4,9 @@ export default function Form() {
   return (
     <div className='Form'>
       <div className="header-box2">
-          <h3 className='form-title'>ПОЛУЧИТЬ ВТОРОЕ ЗАКЛЮЧЕНИЕ СПЕЦИАЛИСТА</h3>
+          <div className="container">
+            <h3 className='form-title'>ПОЛУЧИТЬ ВТОРОЕ ЗАКЛЮЧЕНИЕ СПЕЦИАЛИСТА</h3>
+          </div>
           
           <form action="#">
             
@@ -94,7 +96,7 @@ export default function Form() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 mb-3">
                   <div className="form-group">
                     <label>Сообщение</label>
                     <textarea name="massage" className='form-control' id="" cols="30" rows="10"></textarea>
