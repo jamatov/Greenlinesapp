@@ -10,7 +10,7 @@ export default function HomeHeader() {
           <div className="text-center box1-btn">
             <h3 className='h4 mb-3'>ПОЛУЧИТЬ ВТОРОЕ ЗАКЛЮЧЕНИЕ СПЕЦИАЛИСТА</h3>
             <Link to='/contact'>
-              <button className='btn  btn-warning'>Check The Form</button>
+              <button className='btn  btn-primary'>Check The Form</button>
             </Link>
           </div>
         </div>

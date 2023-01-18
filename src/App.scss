@@ -287,6 +287,9 @@ body{
 
     .box1-btn{
       display: none;
+      background-color: rgba(155,155,155,0.3);
+      backdrop-filter: blur(5px);
+      height: 100%;
     }
 
    
@@ -300,10 +303,15 @@ body{
         }
         .box1-btn{
           display: block;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
           padding: 100px 32px 50px;
 
           h3{
-            color: $green;
+            color: $orange;
           }
         }
       }
