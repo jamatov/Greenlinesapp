@@ -9,7 +9,7 @@ export default function HomeInfo() {
       <div className="container">
         <div className="row">
 
-          <div className="card col-md-7">
+          <div className="card col-md-7 mb-2">
             <div className='card-body home_box'>
               <h2>ПОЧЕМУ GREENLINES</h2>
               <p>Acıbadem (Аджибадем) International – это универсальный международный центр, предоставляющий услуги по организации медицинского и оздоровительного туризма пациентам со всего мира. Acıbadem (Аджибадем) постоянно развивает и совершенствует медицинский туризм для улучшения комфорта и безопасности тысяч пациентов со всего мира, которые ежегодно посещают Турцию.</p>
@@ -20,7 +20,7 @@ export default function HomeInfo() {
             </div>
           </div>
 
-          <div className="card col-md-5 pt-3">
+          <div className="card col-md-5 pt-3 mb-2">
             <div className="cards home_box2">
               <p><FaThumbsUp/> Экосистема здравоохранения для безопасности и комфорта пациентов</p>
             </div>

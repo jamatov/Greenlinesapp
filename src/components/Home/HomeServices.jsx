@@ -12,57 +12,57 @@ export default function HomeServices() {
 
             
 
-        <div className="row justify-content-center gap-3 row2">
-          <div className=" col-md-3 col-sm-6 card text-center">
+        <div className="row justify-content-center row2">
+          <div className=" col-6 col-sm-4 col-md-3 card text-center">
             <div className="card-body">
               <h2 className='card-tittle border-center'>Лечение рака (онкология)</h2>
               <p>Рак — это тяжелое заболевание, частота которого постепенно увеличивается во всем мире. Отличаясь в зависимости от типа рака и очага заболевания, это заболевание можно вылечить, если вовремя обратиться за помощью.</p>
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6 card text-center">
+          <div className="col-6 col-sm-4 col-md-3 card text-center">
             <div className="card-body">
               <h2 className='card-tittle border-center'>Лечение рака (онкология)</h2>
               <p>Рак — это тяжелое заболевание, частота которого постепенно увеличивается во всем мире. Отличаясь в зависимости от типа рака и очага заболевания, это заболевание можно вылечить, если вовремя обратиться за помощью.</p>
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6 card text-center">
+          <div className="col-6 col-sm-4 col-md-3 card text-center">
             <div className="card-body">
               <h2 className='card-tittle border-center'>Лечение рака (онкология)</h2>
               <p>Рак — это тяжелое заболевание, частота которого постепенно увеличивается во всем мире. Отличаясь в зависимости от типа рака и очага заболевания, это заболевание можно вылечить, если вовремя обратиться за помощью.</p>
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6 card text-center">
+          <div className="col-6 col-sm-4 col-md-3 card text-center">
             <div className="card-body">
               <h2 className='card-tittle border-center'>Лечение рака (онкология)</h2>
               <p>Рак — это тяжелое заболевание, частота которого постепенно увеличивается во всем мире. Отличаясь в зависимости от типа рака и очага заболевания, это заболевание можно вылечить, если вовремя обратиться за помощью.</p>
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6 card text-center">
+          <div className="col-6 col-sm-4 col-md-3 card text-center">
             <div className="card-body">
               <h2 className='card-tittle border-center'>Лечение рака (онкология)</h2>
               <p>Рак — это тяжелое заболевание, частота которого постепенно увеличивается во всем мире. Отличаясь в зависимости от типа рака и очага заболевания, это заболевание можно вылечить, если вовремя обратиться за помощью.</p>
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6 card text-center">
+          <div className="col-6 col-sm-4 col-md-3 card text-center">
             <div className="card-body">
               <h2 className='card-tittle border-center'>Лечение рака (онкология)</h2>
               <p>Рак — это тяжелое заболевание, частота которого постепенно увеличивается во всем мире. Отличаясь в зависимости от типа рака и очага заболевания, это заболевание можно вылечить, если вовремя обратиться за помощью.</p>
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6 card text-center">
+          <div className="col-6 col-sm-4 col-md-3 card text-center">
             <div className="card-body">
               <h2 className='card-tittle border-center'>Лечение рака (онкология)</h2>
               <p>Рак — это тяжелое заболевание, частота которого постепенно увеличивается во всем мире. Отличаясь в зависимости от типа рака и очага заболевания, это заболевание можно вылечить, если вовремя обратиться за помощью.</p>
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6 card text-center">
+          <div className="col-6 col-sm-4 col-md-3 card text-center">
             <div className="card-body">
               <h2 className='card-tittle border-center'>Лечение рака (онкология)</h2>
               <p>Рак — это тяжелое заболевание, частота которого постепенно увеличивается во всем мире. Отличаясь в зависимости от типа рака и очага заболевания, это заболевание можно вылечить, если вовремя обратиться за помощью.</p>
